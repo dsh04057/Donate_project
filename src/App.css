@@ -1,0 +1,237 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+}
+
+.left-menu {
+  width: 70px;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-right: solid 1px black;
+}
+
+.right-menu {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 10px;
+  right: 70px;
+
+  border: solid 1px black;
+}
+
+.content {
+  width: calc(100% - 70px);
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  overflow-y: scroll;
+
+}
+
+.Login {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 5%;
+  right: 6%;
+
+  border: solid 1px black;
+}
+
+.projects {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 30%;
+  height: 200px;
+  margin-right: 5%;
+  border: solid 1px black;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.project:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.desc {
+  width: calc(100% - 20px);
+  height: 130px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border: solid 1px black;
+  box-sizing: border-box;
+}
+
+.name {
+}
+.money {
+}
+
+.Donates{
+  width: 1000px;
+  margin-left: 15%;
+  margin-top: 7.5%;
+  height: 500px;
+  margin-right: 5%;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.Donate-image{
+  width: 50%;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 5%;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  line-height: 380px;
+}
+
+.Donate-name{
+  width: 250px;
+  height: 30px;
+  margin-left: 70%;
+  top: -400px;
+  border: solid 1px rgb(17, 2, 2);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+}
+
+
+.Donate-money1{
+  width: 150px;
+  height: 30px;
+  margin-left: 75%;
+  top: -350px;
+  border: solid 1px rgb(17, 2, 2);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+}
+
+
+.Donate-money2{
+  width: 150px;
+  height: 30px;
+  margin-left: 75%;
+  top: -280px;
+  border: solid 1px rgb(17, 2, 2);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+}
+
+.Donate-donate{
+  width: 150px;
+  height: 60px;
+  margin-left: 75%;
+  top: -150px;
+  border: solid 1px rgb(17, 2, 2);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  line-height: 55px;
+}
+
+.Enrollment{
+  width: 1000px;
+  margin-left: 15%;
+  margin-top: 7.5%;
+  height: 500px;
+  margin-right: 5%;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.Enrollment-image{
+  width: 50%;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-right: 5%;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  line-height: 380px;
+}
+
+.Enrollment-name{
+  width: 250px;
+  height: 30px;
+  margin-left: 70%;
+  top: -400px;
+  border: solid 1px rgb(17, 2, 2);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+}
+
+
+.Enrollment-money{
+  width: 150px;
+  height: 30px;
+  margin-left: 75%;
+  top: -300px;
+  border: solid 1px rgb(17, 2, 2);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+}
+
+
+.Enrollment-do{
+  width: 150px;
+  height: 60px;
+  margin-left: 75%;
+  top: -120px;
+  border: solid 1px rgb(17, 2, 2);
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  line-height: 55px;
+}
+
+.R-content {
+  width: calc(100% - 70px);
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 70px;
+  overflow-y: scroll;
+}
+
+
+.Login-Widow{
+  width: 1000px;
+  margin-left: 15%;
+  margin-top: 7.5%;
+  height: 500px;
+  margin-right: 5%;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.Wallet{
+  width: 150px;
+  height: 60px;
+}
