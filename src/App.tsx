@@ -66,8 +66,16 @@ function RightMenu(){
 
 function Login(){
   return(
-  <div className = "Login-Widow">
-    <div className="Wallet">지갑</div>
+  <div className = "Login-Window">
+    <div className="Wallet">QR</div>
+    <div className="Wallet-imformation">세부 정보</div>
+    <div className="deposit">입금</div>
+    <div className="Withdraw">출금</div>
+  
+  <div className = "Myproject"></div>
+    <div className = "myproject1">프로젝트1</div>
+    <div className = "myproject2">프로젝트2</div>
+    <div className = "myproject3">프로젝트3</div>
   </div>
   )
 }
@@ -114,7 +122,7 @@ function App() {
             <Route path="/project">
               <Project />
             </Route>
-            <Route path="/">
+            <Route exact path="/">
               <Home />
             </Route>
           </Switch>
@@ -122,7 +130,7 @@ function App() {
 
         <div className="R-content">
           <Switch>
-          <Route path="/login">
+          <Route exact path="/login">
               <Login />
             </Route>
           </Switch>

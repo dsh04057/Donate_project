@@ -18,8 +18,8 @@
   position: absolute;
   top: 10px;
   right: 70px;
-
   border: solid 1px black;
+  z-index: 100;
 }
 
 .content {
@@ -220,11 +220,11 @@
 }
 
 
-.Login-Widow{
-  width: 1000px;
-  margin-left: 15%;
+.Login-Window{
+  width: 1100px;
+  margin-left: 10%;
   margin-top: 7.5%;
-  height: 500px;
+  height: 250px;
   margin-right: 5%;
   border: solid 1px black;
   box-sizing: border-box;
@@ -232,6 +232,95 @@
 }
 
 .Wallet{
-  width: 150px;
-  height: 60px;
+  width: 400px;
+  height: 200px;
+  margin-left: 5%;
+  margin-top: 2%;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  line-height: 200px;
+}
+
+.Wallet-imformation{
+  width: 175px;
+  height: 200px;
+  margin-left: 48%;
+  margin-top: -18.2%;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  line-height: 200px;
+}
+
+.deposit{
+  width: 175px;
+  height: 200px;
+  margin-left: 65%;
+  margin-top: -18.2%;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  line-height: 200px;
+}
+
+.Withdraw{
+  width: 175px;
+  height: 200px;
+  margin-left: 82%;
+  margin-top: -18.2%;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  line-height: 200px;
+}
+
+.Myproject{
+  width: 1100px;
+  margin-left: 0%;
+  margin-top: 8%;
+  height: 250px;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.myproject1{
+  width: 300px;
+  height: 200px;
+  top: -225px;
+  margin-left: 5%;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  line-height: 200px;
+}
+
+.myproject2{
+  width: 300px;
+  height: 200px;
+  top: -425px;
+  left: 400px;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  line-height: 200px;
+}
+
+.myproject3{
+  width: 300px;
+  height: 200px;
+  left: 750px;
+  top: -625px;
+  border: solid 1px black;
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  line-height: 200px;
 }
